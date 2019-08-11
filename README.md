@@ -43,10 +43,10 @@ curl -XPOST http://localhost:8080/travel/add -H'Content-Type: application/json' 
 
 #### Find user
 ```bash
-curl -XGET http://localhost:8080/travel/user/1
+curl -XGET http://localhost:8080/travel/user/{id}
 ```
 
 #### Delete user
 ```bash
-curl -XDELETE http://localhost:8080/travel/user/1
+curl -XDELETE http://localhost:8080/travel/user/{id}
 ```
